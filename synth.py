@@ -6,7 +6,7 @@ from pyqtgraph.Qt import QtWidgets
 import sys
 
 # Update with the correct Arduino port
-arduino_port = "/dev/tty.usbmodem*"  
+arduino_port = "/dev/tty.usbmodem111201"  
 ser = serial.Serial(arduino_port, 9600)
 
 SAMPLE_RATE = 44100
@@ -57,4 +57,5 @@ timer.start(50)
 
 print("Playing... Close the window to stop.")
 win.show()
-sys.exit(app.exec_())
+sys.exit(app.exec())  # Change from exec_() to exec()
+

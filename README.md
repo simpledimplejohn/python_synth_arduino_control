@@ -12,8 +12,14 @@ source synth_venv/bin/activate  # Activate venv
 pip install pyserial numpy sounddevice pyqtgraph
 
 ```
+### 2. Arduion
+
 
 ## Run
+1. Run Arduino
+- Connect USB
+
+2. Run Python 
 ````bash
 source venv/bin/activate
 python3 ./py_synth.py
