@@ -1,5 +1,5 @@
 # Virtual environment
-venv/
+synth_venv/
 *.pyc
 __pycache__/
 *.pyo
