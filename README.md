@@ -10,6 +10,8 @@ but have an Arduino controler that I build using pots, buttons, sensors.
 python3 -m venv synth_venv
 source synth_venv/bin/activate  # Activate venv
 pip install pyserial numpy sounddevice pyqtgraph
+pip install PyQt6
+
 
 ```
 ### 2. Arduion
@@ -18,6 +20,11 @@ pip install pyserial numpy sounddevice pyqtgraph
 ## Run
 1. Run Arduino
 - Connect USB
+- Find its port 
+````bash
+ls /dev/tty.usbmodem*
+````
+- update the synth.py script with the port 
 
 2. Run Python 
 ````bash
