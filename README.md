@@ -28,7 +28,7 @@ ls /dev/tty.usbmodem*
 
 2. Run Python 
 ````bash
-source venv/bin/activate
-python3 ./py_synth.py
+source synth_venv/bin/activate
+python3 ./synth.py
 ```
 

@@ -6,7 +6,7 @@ from pyqtgraph.Qt import QtWidgets
 import sys
 
 # Update with the correct Arduino port
-arduino_port = "/dev/tty.usbmodem1301"  
+arduino_port = "/dev/tty.usbmodem11301"  
 ser = serial.Serial(arduino_port, 9600)
 
 SAMPLE_RATE = 44100
